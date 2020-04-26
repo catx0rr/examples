@@ -10,7 +10,7 @@ h2 {
 }
 
 label {
-  font-size: 0.85rem;
+  font-size: 1.10rem;
   font-weight: 400;
 }
 
@@ -114,12 +114,12 @@ li.carousel-sm-btn {
 
 .section-img-white {
   border: 5px solid #f7f7f7;
-  box-shadow: 2px 2px 30px #eaac9d;
+  box-shadow: 2px 2px 20px #eaac9d;
 }
 
 .section-img-colored {
   border: 5px solid #f2c0b3;
-  box-shadow: 2px 2px 30px #212529;
+  box-shadow: 2px 2px 20px #212529;
 }
 
 .section-heading {
@@ -172,7 +172,7 @@ li.carousel-sm-btn {
 }
 
 .submit-btn {
-  width: 30%;
+  width: 40%;
   background-color: #ffffff;
   border-color: #ffffff;
   color: #eaac9d;
@@ -258,31 +258,9 @@ li.carousel-sm-btn {
   width: 70%;
 }
 
-.input-name {
-  border: 2px solid #eaac9d;
-  border-radius: 5%;
-  margin: 0 2.75%;
-  padding: 5px;
-  width: 32%;
-}
-
 .input-label {
   text-align: left;
   margin: 1%;
-}
-
-.first-name-label {
-  right: 4%;
-}
-
-.last-name-label {
-  right: 18.25%;
-}
-
-.name-label {
-  font-size: 0.70rem;
-  padding: 0;
-  margin: 0;
 }
 
 /* Footer */
@@ -301,6 +279,11 @@ li.carousel-sm-btn {
   h2 {
     font-size: 2rem;
     font-weight: 900;
+  }
+
+  label {
+    font-size: 0.90rem;
+    font-weight: 400;
   }
 
   .intro-msg {
@@ -335,23 +318,13 @@ li.carousel-sm-btn {
     padding: 5% 15%;
   }
 
-  .first-name-label {
-    left: 2.5%;
+  .accomodation-body {
+    padding: 1% 8% 3%;
   }
 
-  .last-name-label {
-    right: 15%;
-  }
-}
-
-@media (max-width: 575px) {
-  .first-name-label {
-    margin-right: 50%;
-  }
-
-  .last-name-label {
-    position: absolute;
-    left: 8%;
+  .input-label {
+    text-align: center;
+    margin: 1%;
   }
 }
 
@@ -379,12 +352,7 @@ li.carousel-sm-btn {
     padding: 0 20% 5%;
   }
 
-  .first-name-label {
-    margin-right: 38%;
-  }
-
-  .last-name-label {
-    position: absolute;
-    left: 12%;
+  .accomodation-body {
+    padding: 1% 5% 3%;
   }
 }
