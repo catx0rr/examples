@@ -57,20 +57,16 @@ input, textarea {
 }
 
 .nav-header {
-  background-color: rgba(234, 172, 157, 0.3);
+  background-color: rgba(234, 172, 157, 0.4);
   background-size: cover;
   position: absolute;
   width: 100%;
   z-index: 1;
 }
 
-.navbar-nav, .navbar-collapse {
-  margin: 0 2%;
-}
-
 .nav-link {
   font-family: 'Cantarell', sans-serif;
-  font-size: .80rem;
+  font-size: 0.85rem;
   text-transform: uppercase;
   text-align: center;
 }
@@ -111,9 +107,19 @@ li.carousel-sm-btn {
 }
 
 .section-img {
-  margin: 2% 0;
+  margin: 5% auto;
   width: 40%;
   border-radius: 100%;
+}
+
+.section-img-white {
+  border: 5px solid #f7f7f7;
+  box-shadow: 2px 2px 30px #eaac9d;
+}
+
+.section-img-colored {
+  border: 5px solid #f2c0b3;
+  box-shadow: 2px 2px 30px #212529;
 }
 
 .section-heading {
@@ -190,7 +196,7 @@ li.carousel-sm-btn {
 
 /* Accomodation */
 #accomodation .container {
-  padding: 5% 2%;
+  padding: 5.5% 2%;
 }
 
 .gradient-border {
