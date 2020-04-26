@@ -1,0 +1,323 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 900;
+}
+
+label {
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+
+textarea {
+  border: 2px solid #eaac9d;
+  border-radius: 5%;
+  margin: 0 2%;
+  width: 70%;
+}
+
+h1, .accomodation-header-title {
+  font-family: 'Shadows Into Light', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  margin: 1%;
+}
+
+h3, .place-rate {
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: #eaac9d;
+}
+
+input, textarea {
+  font-size: 0.80rem;
+}
+
+/* Navigation Bar */
+.container-fluid {
+  padding: 0;
+}
+
+.intro-msg {
+  color: #f7f7f7;
+  margin-top: 23.25%;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar-brand {
+  margin: 0;
+}
+
+.nav-header {
+  background-color: rgba(234, 172, 157, 0.3);
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar-nav, .navbar-collapse {
+  margin: 0 2%;
+}
+
+.nav-link {
+  font-family: 'Cantarell', sans-serif;
+  font-size: .80rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.carousel {
+  position: relative;
+}
+
+li.carousel-sm-btn {
+  height: 10px;
+  width: 10px;
+  margin: 1% 1%;
+}
+
+.carousel-control {
+  height: 10%;
+  top: 40%;
+  width: 5%;
+}
+
+/* Sections */
+#intro a {
+  margin: 0 10px;
+}
+
+.white-section {
+  background-color: #f7f7f7;
+  color: #212529;
+}
+
+.colored-section {
+  background-color: #eaac9d;
+  color: #f7f7f7;
+}
+
+.section-board {
+  padding: 6% 10%;
+}
+
+.section-img {
+  margin: 2% 0;
+  width: 40%;
+  border-radius: 100%;
+}
+
+.section-heading {
+  padding: 1% 25%;
+}
+
+.section-time {
+  padding: 0 20%;
+}
+
+.section-msg {
+  padding: 0 35% 5%;
+}
+
+/* Links and buttons */
+.link-trans {
+  transition: 0.6s;
+}
+
+.map-link-white {
+  color: #212529;
+  font-size: 1.25rem;
+}
+
+.map-link-white:hover {
+  color: #eaac9d;
+  text-decoration: none;
+}
+
+.map-link-black {
+  color: #f7f7f7;
+  font-size: 1.25rem;
+}
+
+.map-link-black:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+.book-btn {
+  border-color: #eaac9d;
+  background-color: #eaac9d;
+  color: #ffffff;
+}
+
+.book-btn:hover {
+  border-color: #eaac9d;
+  background-color: #ffffff;
+  color: #eaac9d;
+}
+
+.submit-btn {
+  width: 30%;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #eaac9d;
+}
+
+.submit-btn:hover {
+  border-color: #eaac9d;
+  background-color: #eaac9d;
+  color: #ffffff;
+}
+
+/* Accomodation */
+#accomodation .container {
+  padding: 5% 2%;
+}
+
+.gradient-border {
+  padding: 1rem;
+  color: #f7f7f7;
+  border-width: 5px;
+  border-style: solid;
+  border-image:
+    linear-gradient(to bottom,
+      #eaac9d,
+      rgba(0, 0, 0, 0)) 1 100%;
+}
+
+/* RSVP Section */
+.picture-section {
+  background-image: url('../img/celebrate-with-us.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.picture-section::before {
+  background: rgba(234, 172, 157, 0.6);
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  content: '';
+}
+
+.accomodation-form {
+  color: #f7f7f7;
+  margin: 0 auto;
+  max-width: 1200px;
+  z-index: 2;
+  position: relative;
+}
+
+.accomodation-header {
+  padding: 3% 10% 1%;
+}
+
+.accomodation-body {
+  padding: 1% 15%;
+}
+
+.accomodation-submit {
+  padding: 1%;
+}
+
+/* RSVP inputs */
+.input-box {
+  border: 2px solid #eaac9d;
+  border-radius: 5%;
+  margin: 0 2%;
+  width: 70%;
+}
+
+.input-name {
+  border: 2px solid #eaac9d;
+  border-radius: 5%;
+  width: 32%;
+  margin: 0 2.75%;
+}
+
+.input-label {
+  text-align: left;
+  margin: 1%;
+}
+
+/* Footer */
+#footer {
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+/* Media Viewport */
+@media (max-width: 764px) {
+  h1 {
+    font-size: 2.5rem;
+    margin: 2%;
+  }
+
+  .intro-msg {
+    font-size: 0.85rem;
+    margin-top: 15%;
+    z-index: 1;
+  }
+
+  .nav-header {
+    background-color: rgba(234, 172, 157, 1);
+    position: relative;
+  }
+
+  .navbar-nav {
+    margin: 0;
+  }
+
+  li.carousel-sm-btn {
+    height: 7px;
+    width: 7px;
+  }
+
+  .section-board {
+    padding: 3% 6%;
+  }
+
+  .section-msg {
+    padding: 0 30% 5%;
+  }
+
+  .accomodation-header-title {
+    padding: 5% 15%;
+  }
+}
+
+@media (max-width: 360px) {
+  h1 {
+    font-size: 2rem;
+    margin: 2%;
+  }
+
+  .intro-msg {
+    font-size: 0.65rem;
+    margin-top: 10%;
+    z-index: 1;
+  }
+
+  .navbar {
+    text-align: left;
+  }
+
+  .navbar-brand {
+    margin: 0;
+  }
+
+  .section-msg {
+    padding: 0 20% 5%;
+  }
+}
