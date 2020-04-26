@@ -5,6 +5,7 @@ body {
 }
 
 h2 {
+  font-size: 3rem;
   font-weight: 900;
 }
 
@@ -15,14 +16,14 @@ label {
 
 textarea {
   border: 2px solid #eaac9d;
-  border-radius: 5%;
+  border-radius: 3%;
   margin: 0 2%;
   width: 70%;
 }
 
 h1, .accomodation-header-title {
   font-family: 'Shadows Into Light', sans-serif;
-  font-size: 3.5rem;
+  font-size: 5rem;
   font-weight: 900;
   margin: 1%;
 }
@@ -51,6 +52,7 @@ input, textarea {
 }
 
 .navbar-brand {
+  font-size: 1.5rem;
   margin: 0;
 }
 
@@ -176,6 +178,16 @@ li.carousel-sm-btn {
   color: #ffffff;
 }
 
+.fab {
+  font-size: 1.5rem;
+  margin: 0 1%;
+  color: #f7f7f7;
+}
+
+.fab:hover {
+  color: #212529;
+}
+
 /* Accomodation */
 #accomodation .container {
   padding: 5% 2%;
@@ -224,11 +236,11 @@ li.carousel-sm-btn {
 }
 
 .accomodation-body {
-  padding: 1% 15%;
+  padding: 1% 15% 3%;
 }
 
 .accomodation-submit {
-  padding: 1%;
+  padding: 2.5% 0;
 }
 
 /* RSVP inputs */
@@ -236,19 +248,35 @@ li.carousel-sm-btn {
   border: 2px solid #eaac9d;
   border-radius: 5%;
   margin: 0 2%;
+  padding: 5px;
   width: 70%;
 }
 
 .input-name {
   border: 2px solid #eaac9d;
   border-radius: 5%;
-  width: 32%;
   margin: 0 2.75%;
+  padding: 5px;
+  width: 32%;
 }
 
 .input-label {
   text-align: left;
   margin: 1%;
+}
+
+.first-name-label {
+  right: 4%;
+}
+
+.last-name-label {
+  right: 18.25%;
+}
+
+.name-label {
+  font-size: 0.70rem;
+  padding: 0;
+  margin: 0;
 }
 
 /* Footer */
@@ -259,9 +287,14 @@ li.carousel-sm-btn {
 
 /* Media Viewport */
 @media (max-width: 764px) {
-  h1 {
-    font-size: 2.5rem;
+  h1, .accomodation-header-title {
+    font-size: 3.5rem;
     margin: 2%;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 900;
   }
 
   .intro-msg {
@@ -295,6 +328,25 @@ li.carousel-sm-btn {
   .accomodation-header-title {
     padding: 5% 15%;
   }
+
+  .first-name-label {
+    left: 2.5%;
+  }
+
+  .last-name-label {
+    right: 15%;
+  }
+}
+
+@media (max-width: 575px) {
+  .first-name-label {
+    margin-right: 50%;
+  }
+
+  .last-name-label {
+    position: absolute;
+    left: 8%;
+  }
 }
 
 @media (max-width: 360px) {
@@ -319,5 +371,14 @@ li.carousel-sm-btn {
 
   .section-msg {
     padding: 0 20% 5%;
+  }
+
+  .first-name-label {
+    margin-right: 38%;
+  }
+
+  .last-name-label {
+    position: absolute;
+    left: 12%;
   }
 }
